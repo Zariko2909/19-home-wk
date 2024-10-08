@@ -7,12 +7,6 @@
   scroll-behavior: smooth;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 130px;
-}
-
 .headertop {
   background: #163A24;
   padding: 0 130px;
@@ -27,6 +21,7 @@
 }
 .headertop nav .phone {
   display: none;
+  color: #fff;
 }
 .headertop nav .leftactions {
   display: flex;
@@ -115,6 +110,7 @@
   line-height: 54px;
   text-align: left;
   margin-bottom: 27px;
+  color: #163A24;
 }
 .maincard .item .cardinfo p {
   font-family: Noto Sans;
@@ -122,6 +118,7 @@
   font-weight: 400;
   line-height: 27px;
   text-align: left;
+  color: #163A24;
 }
 
 .partner {
@@ -131,6 +128,14 @@
   justify-content: center;
   gap: 66px;
   margin-bottom: 120px;
+}
+.partner h2 {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: #163A24;
 }
 .partner .partner_wrap {
   display: flex;
@@ -158,10 +163,8 @@
 .quality .card_wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .quality .card_wrapper .card {
-  width: 280px;
   text-align: center;
 }
 .quality .card_wrapper .card p {
@@ -176,7 +179,7 @@
 .employees {
   background: #f2efe6;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 180px auto;
   padding: 66px 130px 120px;
   text-align: center;
 }
@@ -186,6 +189,7 @@
   font-weight: 600;
   line-height: 54px;
   text-align: center;
+  color: #163A24;
 }
 .employees p {
   font-family: Noto Sans;
@@ -193,6 +197,92 @@
   font-weight: 400;
   line-height: 27px;
   text-align: center;
+  color: #163A24;
+}
+
+.employee {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 66px 130px 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.employee .cardinfo {
+  padding-left: 30px;
+  max-width: 400px;
+}
+.employee .cardinfo h2 {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  margin-bottom: 27px;
+  color: #163A24;
+}
+.employee .cardinfo p {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #163A24;
+}
+
+.interest {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 66px 130px 120px;
+  color: #163A24;
+}
+.interest h2 {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 27px;
+  text-align: center;
+}
+.interest p {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.interest .interest-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.interest .interest-cards .interest-card {
+  background: #FBFAF7;
+  width: 353px;
+  height: 393px;
+  padding: 50px 40px;
+  margin-top: 18px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+.interest .interest-cards .interest-card h3 {
+  font-family: Recoleta;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31.5px;
+  text-align: left;
+  padding-top: 20px;
+}
+.interest .interest-cards .interest-card li {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  padding: 7px;
 }
 
 .menu_navbar {
@@ -268,5 +358,17 @@ input {
   }
   .employees img {
     display: none;
+  }
+  .interest-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card_wrapper {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .card_wrapper .card {
+    width: 150px;
+    padding: 0;
   }
 }/*# sourceMappingURL=main.css.map */
